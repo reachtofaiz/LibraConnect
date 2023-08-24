@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Form</title>
+    <link rel="stylesheet" href="faculty.css">
+    <link rel="shortcut icon" href="library.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li><a href="Library.html">Home</a></li>
+            <li><a href="https://www.citranchi.ac.in/departments.html">Departments</a></li>
+            <li><a href="https://www.citranchi.ac.in/contactus.html#">About</a></li>
+            <li><a href="https://www.citranchi.ac.in/contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="left">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" style="border-radius: 10px;" required>
+            <div class="input-box">
+                <span class="roll"> Faculty id :</span><br>
+                <input type="text" class="text" style="border-radius: 10px;" required>
+            </div>
+            <br>
+            <br>
+            <div class="selection">
+                <label for="branch">
+                    <div class="span" style="font-size: 20px;">Select Branch:</div><br>
+                </label>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-cse" name="branch" value="cse">
+                    <label for="branch-cse">Computer Science Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-civil" name="branch" value="civil">
+                    <label for="branch-civil">Civil Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-ece" name="branch" value="ece">
+                    <label for="branch-ece">Electronics and Communication Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-eee" name="branch" value="eee">
+                    <label for="branch-eee">Electricals and Electronics Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-mech" name="branch" value="mech">
+                    <label for="branch-mech">Mechanical Engineering</label>
+                </div>
+            </div>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" style="border-radius: 10px;" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" style="border-radius: 10px;" required>
+            <br>
+            <br>
+            <button class="register-button">Register</button>
+    </div>
+    </form>
+    </div>
+
+    <div class="right">
+        <h1>Login</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" style="border-radius: 10px;" required>
+
+            <div class="input-box">
+                <span class="roll"> Faculty id :</span><br>
+                <input type="text" class="text" style="border-radius: 10px;" required>
+            </div>
+            <br>
+            <br>
+            <div class="selection">
+                <label for="branch">
+                    <div class="span" style="font-size: 20px;">Select Branch:</div><br>
+                </label>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-cse" name="branch" value="cse">
+                    <label for="branch-cse">Computer Science Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-civil" name="branch" value="civil">
+                    <label for="branch-civil">Civil Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-ece" name="branch" value="ece">
+                    <label for="branch-ece">Electronics and Communication Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-eee" name="branch" value="eee">
+                    <label for="branch-eee">Electricals and Electronics Engineering</label>
+                </div>
+
+                <div class="radio-group">
+                    <input type="radio" id="branch-mech" name="branch" value="mech">
+                    <label for="branch-mech">Mechanical Engineering</label>
+                </div>
+
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" style="border-radius: 10px;" required>
+
+            <br>
+            <br>
+            <button class="login-button">Login</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

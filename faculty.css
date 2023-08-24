@@ -1,0 +1,184 @@
+body {
+    font-family: Josefin Sans;
+    background-image: url(library.jpg);
+    background-size: cover;
+}
+
+.box {
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 5px;
+    max-height: 70px;
+}
+
+ul {
+    list-style: none;
+    margin: 30px;
+    padding: 30px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 22px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li a:hover {
+    color: rgb(235, 90, 90);
+    font-size: 1.4rem;
+}
+
+.left {
+    position: absolute;
+    margin: -7px;
+    bottom: -215px;
+    width: 311px;
+    border: 3px solid rgb(73, 167, 230);
+    padding: 35px;
+    background-color: rgba(15, 14, 14, 0.6);
+    border-radius: 20px;
+    margin-left: 10vh;
+    height: 100vh;
+
+}
+
+.left h2 {
+    color: rgb(247, 242, 242);
+    text-align: center;
+    margin-right: 6px;
+    margin-top: -28px;
+    font-size: 40px;
+}
+
+.left form {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.left label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left input[type="text"],
+.left input[type="email"],
+.left input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px rgb(73, 167, 230);
+}
+
+.left input[type="radio"] {
+    color: aquamarine;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection span {
+    font-size: 10px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.register-button {
+    background-color: rgb(54, 190, 224);
+    color: rgb(255, 253, 253);
+    border: 2px solid #86d5f0;
+    padding: 8px;
+    border-radius: 16px;
+    height: 34px;
+    margin-left: 86px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    width: 115px;
+}
+
+.register-button:hover {
+
+    color: rgb(10, 9, 9);
+}
+
+.right {
+    position: absolute;
+    margin: 135px;
+    bottom: -260px;
+    width: 277px;
+    border: 3px solid rgb(73, 167, 230);
+    padding: 53px;
+    background-color: rgba(15, 14, 14, 0.6);
+    border-radius: 20px;
+    margin-left: 115vh;
+    height: 480px;
+}
+
+.right h1 {
+    color: rgb(247, 242, 242);
+    text-align: center;
+    margin-right: 6px;
+    margin-top: -30px;
+    font-size: 35px;
+}
+
+.right form {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.right section {
+    font-size: 30px;
+}
+
+.right label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.right input[type="text"],
+.right input[type="email"],
+.right input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px rgb(73, 167, 230);
+}
+
+.right input[type="radio"] {
+    color: aquamarine;
+}
+
+.login-button {
+    background-color: rgb(54, 190, 224);
+    color: rgb(255, 253, 253);
+    border: 2px solid #86d5f0;
+    padding: 8px;
+    border-radius: 16px;
+    height: 34px;
+    margin-left: 83px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+    width: 95px;
+}
+
+.login-button:hover {
+
+    color: rgb(10, 9, 9);
+}
