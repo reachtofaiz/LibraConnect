@@ -1,8 +1,10 @@
 body {
+  zoom: 80%;
   font-family: Josefin Sans;
   background-image: url(cit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 12vh;
 }
 
 .box {
