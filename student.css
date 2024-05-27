@@ -1,7 +1,7 @@
 body {
     
     font-family: Josefin Sans;
-    background-image: url(student.jpg);
+    background-image: url(/Images/student.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }

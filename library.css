@@ -1,7 +1,7 @@
 body {
   zoom: 79%;
   font-family: Josefin Sans;
-  background-image: url(cit.jpg);
+  background-image: url(/Images/cit.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 12vh;
@@ -33,11 +33,12 @@ ul li {
 ul li a {
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.2rem;
 }
 
 ul li a:hover {
   color: rgb(235, 90, 90);
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 span {
   color: rgb(212, 193, 193);
